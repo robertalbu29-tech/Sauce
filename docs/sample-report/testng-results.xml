@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-10-07T12:57:43 CEST" name="SauceDemo Suite" finished-at="2026-10-07T12:59:07 CEST" duration-ms="84310">
+    <groups>
+      <group name="negative">
+        <method signature="CheckoutTest.checkoutWithoutFirstNameShowsError()[pri:0, instance:com.saucedemo.tests.CheckoutTest@5af3afd9]" name="checkoutWithoutFirstNameShowsError" class="com.saucedemo.tests.CheckoutTest"/>
+      </group> <!-- negative -->
+      <group name="social">
+        <method signature="SocialLinksTest.socialIconOpensCorrectLink(com.saucedemo.pages.SocialNetwork)[pri:0, instance:com.saucedemo.tests.SocialLinksTest@323b36e0]" name="socialIconOpensCorrectLink" class="com.saucedemo.tests.SocialLinksTest"/>
+      </group> <!-- social -->
+      <group name="sorting">
+        <method signature="SortingTest.productsAreSortedByName(com.saucedemo.pages.SortOrder)[pri:0, instance:com.saucedemo.tests.SortingTest@3bb9a3ff]" name="productsAreSortedByName" class="com.saucedemo.tests.SortingTest"/>
+      </group> <!-- sorting -->
+      <group name="smoke">
+        <method signature="CheckoutTest.completeCheckout()[pri:0, instance:com.saucedemo.tests.CheckoutTest@5af3afd9]" name="completeCheckout" class="com.saucedemo.tests.CheckoutTest"/>
+        <method signature="LoginTest.successfulLogin()[pri:0, instance:com.saucedemo.tests.LoginTest@1dde4cb2]" name="successfulLogin" class="com.saucedemo.tests.LoginTest"/>
+      </group> <!-- smoke -->
+      <group name="checkout">
+        <method signature="CheckoutTest.checkoutWithoutFirstNameShowsError()[pri:0, instance:com.saucedemo.tests.CheckoutTest@5af3afd9]" name="checkoutWithoutFirstNameShowsError" class="com.saucedemo.tests.CheckoutTest"/>
+        <method signature="CheckoutTest.completeCheckout()[pri:0, instance:com.saucedemo.tests.CheckoutTest@5af3afd9]" name="completeCheckout" class="com.saucedemo.tests.CheckoutTest"/>
+      </group> <!-- checkout -->
+      <group name="cart">
+        <method signature="CartTest.addRemoveAndReAddProduct()[pri:0, instance:com.saucedemo.tests.CartTest@661972b0]" name="addRemoveAndReAddProduct" class="com.saucedemo.tests.CartTest"/>
+      </group> <!-- cart -->
+    </groups>
+    <test started-at="2026-10-07T12:57:43 CEST" name="SauceDemo E2E" finished-at="2026-10-07T12:59:07 CEST" duration-ms="84310">
+      <class name="com.saucedemo.tests.SocialLinksTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.saucedemo.tests.SocialLinksTest@323b36e0]" started-at="2026-10-07T12:58:42 CEST" name="setUp" finished-at="2026-10-07T12:58:47 CEST" duration-ms="5780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="socialIconOpensCorrectLink(com.saucedemo.pages.SocialNetwork)[pri:0, instance:com.saucedemo.tests.SocialLinksTest@323b36e0]" started-at="2026-10-07T12:58:47 CEST" name="socialIconOpensCorrectLink" description="Footer social icons open the correct page" data-provider="networks" finished-at="2026-10-07T12:58:49 CEST" duration-ms="1750" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TWITTER]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- socialIconOpensCorrectLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.SocialLinksTest@323b36e0]" started-at="2026-10-07T12:58:49 CEST" name="tearDown" finished-at="2026-10-07T12:58:49 CEST" duration-ms="307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.saucedemo.tests.SocialLinksTest@323b36e0]" started-at="2026-10-07T12:58:49 CEST" name="setUp" finished-at="2026-10-07T12:58:56 CEST" duration-ms="7073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="socialIconOpensCorrectLink(com.saucedemo.pages.SocialNetwork)[pri:0, instance:com.saucedemo.tests.SocialLinksTest@323b36e0]" started-at="2026-10-07T12:58:56 CEST" name="socialIconOpensCorrectLink" description="Footer social icons open the correct page" data-provider="networks" finished-at="2026-10-07T12:59:05 CEST" duration-ms="8840" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FACEBOOK]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- socialIconOpensCorrectLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.SocialLinksTest@323b36e0]" started-at="2026-10-07T12:59:05 CEST" name="tearDown" finished-at="2026-10-07T12:59:07 CEST" duration-ms="1514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.saucedemo.tests.SocialLinksTest -->
+      <class name="com.saucedemo.tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.saucedemo.tests.LoginTest@1dde4cb2]" started-at="2026-10-07T12:57:43 CEST" name="setUp" finished-at="2026-10-07T12:57:51 CEST" duration-ms="8296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="successfulLogin()[pri:0, instance:com.saucedemo.tests.LoginTest@1dde4cb2]" started-at="2026-10-07T12:57:51 CEST" name="successfulLogin" description="Standard user logs in and lands on the products page" finished-at="2026-10-07T12:57:51 CEST" duration-ms="457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfulLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.LoginTest@1dde4cb2]" started-at="2026-10-07T12:57:51 CEST" name="tearDown" finished-at="2026-10-07T12:57:54 CEST" duration-ms="2886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.saucedemo.tests.LoginTest -->
+      <class name="com.saucedemo.tests.SortingTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.saucedemo.tests.SortingTest@3bb9a3ff]" started-at="2026-10-07T12:57:54 CEST" name="setUp" finished-at="2026-10-07T12:58:00 CEST" duration-ms="6199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="productsAreSortedByName(com.saucedemo.pages.SortOrder)[pri:0, instance:com.saucedemo.tests.SortingTest@3bb9a3ff]" started-at="2026-10-07T12:58:00 CEST" name="productsAreSortedByName" description="Products are sorted by name A-Z and Z-A" data-provider="sortOrders" finished-at="2026-10-07T12:58:01 CEST" duration-ms="819" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NAME_A_TO_Z]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productsAreSortedByName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.SortingTest@3bb9a3ff]" started-at="2026-10-07T12:58:01 CEST" name="tearDown" finished-at="2026-10-07T12:58:02 CEST" duration-ms="872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.saucedemo.tests.SortingTest@3bb9a3ff]" started-at="2026-10-07T12:58:02 CEST" name="setUp" finished-at="2026-10-07T12:58:09 CEST" duration-ms="7002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="productsAreSortedByName(com.saucedemo.pages.SortOrder)[pri:0, instance:com.saucedemo.tests.SortingTest@3bb9a3ff]" started-at="2026-10-07T12:58:09 CEST" name="productsAreSortedByName" description="Products are sorted by name A-Z and Z-A" data-provider="sortOrders" finished-at="2026-10-07T12:58:10 CEST" duration-ms="804" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NAME_Z_TO_A]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productsAreSortedByName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.SortingTest@3bb9a3ff]" started-at="2026-10-07T12:58:10 CEST" name="tearDown" finished-at="2026-10-07T12:58:10 CEST" duration-ms="314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.saucedemo.tests.SortingTest -->
+      <class name="com.saucedemo.tests.CheckoutTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.saucedemo.tests.CheckoutTest@5af3afd9]" started-at="2026-10-07T12:58:17 CEST" name="setUp" finished-at="2026-10-07T12:58:27 CEST" duration-ms="9141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkoutWithoutFirstNameShowsError()[pri:0, instance:com.saucedemo.tests.CheckoutTest@5af3afd9]" started-at="2026-10-07T12:58:27 CEST" name="checkoutWithoutFirstNameShowsError" description="Checkout is blocked when First Name is empty" finished-at="2026-10-07T12:58:27 CEST" duration-ms="542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutWithoutFirstNameShowsError -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.CheckoutTest@5af3afd9]" started-at="2026-10-07T12:58:27 CEST" name="tearDown" finished-at="2026-10-07T12:58:28 CEST" duration-ms="1366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.saucedemo.tests.CheckoutTest@5af3afd9]" started-at="2026-10-07T12:58:28 CEST" name="setUp" finished-at="2026-10-07T12:58:39 CEST" duration-ms="10857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="completeCheckout()[pri:0, instance:com.saucedemo.tests.CheckoutTest@5af3afd9]" started-at="2026-10-07T12:58:39 CEST" name="completeCheckout" description="Complete checkout with valid customer details" finished-at="2026-10-07T12:58:41 CEST" duration-ms="1655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeCheckout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.CheckoutTest@5af3afd9]" started-at="2026-10-07T12:58:41 CEST" name="tearDown" finished-at="2026-10-07T12:58:42 CEST" duration-ms="619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.saucedemo.tests.CheckoutTest -->
+      <class name="com.saucedemo.tests.CartTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.saucedemo.tests.CartTest@661972b0]" started-at="2026-10-07T12:58:10 CEST" name="setUp" finished-at="2026-10-07T12:58:16 CEST" duration-ms="5727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addRemoveAndReAddProduct()[pri:0, instance:com.saucedemo.tests.CartTest@661972b0]" started-at="2026-10-07T12:58:16 CEST" name="addRemoveAndReAddProduct" description="Add a product, remove it, then add it again" finished-at="2026-10-07T12:58:17 CEST" duration-ms="1121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addRemoveAndReAddProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.CartTest@661972b0]" started-at="2026-10-07T12:58:17 CEST" name="tearDown" finished-at="2026-10-07T12:58:17 CEST" duration-ms="310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.saucedemo.tests.CartTest -->
+    </test> <!-- SauceDemo E2E -->
+  </suite> <!-- SauceDemo Suite -->
+</testng-results>

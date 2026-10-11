@@ -1,0 +1,24 @@
+[12:57:44] INFO    Started Chrome (headless=true)
+[12:57:51] INFO    START  LoginTest.successfulLogin
+[12:57:51] INFO    PASS   LoginTest.successfulLogin (457 ms)
+[12:57:55] INFO    Started Chrome (headless=true)
+[12:58:00] INFO    START  SortingTest.productsAreSortedByName[NAME_A_TO_Z]
+[12:58:01] INFO    PASS   SortingTest.productsAreSortedByName[NAME_A_TO_Z] (819 ms)
+[12:58:07] INFO    Started Chrome (headless=true)
+[12:58:09] INFO    START  SortingTest.productsAreSortedByName[NAME_Z_TO_A]
+[12:58:10] INFO    PASS   SortingTest.productsAreSortedByName[NAME_Z_TO_A] (804 ms)
+[12:58:11] INFO    Started Chrome (headless=true)
+[12:58:16] INFO    START  CartTest.addRemoveAndReAddProduct
+[12:58:17] INFO    PASS   CartTest.addRemoveAndReAddProduct (1121 ms)
+[12:58:21] INFO    Started Chrome (headless=true)
+[12:58:27] INFO    START  CheckoutTest.checkoutWithoutFirstNameShowsError
+[12:58:27] INFO    PASS   CheckoutTest.checkoutWithoutFirstNameShowsError (542 ms)
+[12:58:29] INFO    Started Chrome (headless=true)
+[12:58:39] INFO    START  CheckoutTest.completeCheckout
+[12:58:41] INFO    PASS   CheckoutTest.completeCheckout (1655 ms)
+[12:58:42] INFO    Started Chrome (headless=true)
+[12:58:47] INFO    START  SocialLinksTest.socialIconOpensCorrectLink[TWITTER]
+[12:58:49] INFO    PASS   SocialLinksTest.socialIconOpensCorrectLink[TWITTER] (1750 ms)
+[12:58:50] INFO    Started Chrome (headless=true)
+[12:58:56] INFO    START  SocialLinksTest.socialIconOpensCorrectLink[FACEBOOK]
+[12:59:05] INFO    PASS   SocialLinksTest.socialIconOpensCorrectLink[FACEBOOK] (8840 ms)
